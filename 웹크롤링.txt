@@ -1,0 +1,21 @@
+javascript:void(0)
+
+https://www.dhlottery.co.kr/gameResult.do?method=allWinExel&gubun=byWin&nowPage="+$("#nowPage").val()+"&drwNoStart="+$("#drwNoStart").val()+"&drwNoEnd="+$("#drwNoEnd").val();
+
+
+
+https://www.dhlottery.co.kr/gameResult.do?method=byWin
+<meta id="desc" name="description" content="동행복권 969회 당첨번호 3,9,10,29,40,45+7. 1등 총 20명, 1인당 당첨금액 1,149,427,894원.">
+
+969가 가장최근 추첨번호임을 알수 있다
+
+
+https://www.dhlottery.co.kr/gameResult.do?method=allWinExel&gubun=byWin&nowPage=1&drwNoStart=1&drwNoEnd=969
+호출하여 엑셀파일 다운로드
+
+엑셀을 판다스로 읽어들인다.
+
+B, nopqrst 칼럼 읽어들여서 데이터프레임만든다..
+당첨번호별로 회수계산해서 
+
+1~45 중 가장많이 나온 숫자 6개를 골라서 뿌려준다.
